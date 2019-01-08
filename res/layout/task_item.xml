@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp">
+
+    <ImageView android:id="@+id/icon"
+        android:src="@drawable/bei"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"/>
+
+    <TextView android:id="@android:id/text1"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:ems="20"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart" />
+</LinearLayout>

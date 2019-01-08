@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="＜返回"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    <TextView
+        android:id="@+id/hand_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/hand_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/hand_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地址"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/hand_integral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="积分"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/hand_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联系电话"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/hand_buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="购买地址"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#e0e0e0"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_context_server"
+            android:background="#ff8000"
+            android:layout_width="114dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="联系接受者"/>
+
+        <Button
+            android:id="@+id/btn_task_sure"
+            android:background="@color/back"
+            android:layout_width="114dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="任务完成确认"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:background="#d0d0d0"
+            android:layout_width="114dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="删除任务"/>
+    </LinearLayout>
+</LinearLayout>

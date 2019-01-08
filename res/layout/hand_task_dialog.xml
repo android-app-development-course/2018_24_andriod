@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#0080FF"
+        android:text="请输入指定购买地址"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_buy_address"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:ems="20"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#e0e0e0"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_confirm"
+            android:background="#ff8000"
+            android:layout_width="114dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="确定"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:background="#d0d0d0"
+            android:layout_width="114dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>
